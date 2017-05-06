@@ -1,0 +1,21 @@
+{
+    "name": "ajcastro/laravel-custom-insert-model",
+    "description": "Laravel model extension for custom-insert ids.",
+    "keywords": ["laravel", "custom insert", "custom id"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arjon Jason Castro",
+            "email": "ajcastro29@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelCustomInsertModel\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
