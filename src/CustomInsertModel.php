@@ -61,7 +61,7 @@ class CustomInsertModel extends Model
         $class = get_class($this);
 
         if (is_null($this->tail)) {
-            throw new \Exception("Property \$tail is not set in custom model {$class}.");
+            throw new \Exception("Property \$tail is not set in custom-insert model {$class}.");
         }
 
         if ($this->incrementing) {
