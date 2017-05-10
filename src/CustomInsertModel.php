@@ -69,8 +69,18 @@ class CustomInsertModel extends Model
         }
 
         if (empty($this->primaryKeyPrefix())) {
-            throw new \Exception("Performing custom insert on model {$class} must have a primaryKeyPrefix e.g. branch_id.");
+            throw new \Exception("Custom-insert model {$class} must have a value for primaryKeyPrefix().");
         }
+    }
+    
+    /**
+     * Return primary key prefix.
+     *
+     * @return mixed.
+     */
+    public function primaryKeyPrefix()
+    {
+        return;
     }
 
     /**
